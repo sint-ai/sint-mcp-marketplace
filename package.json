@@ -1,0 +1,21 @@
+{
+  "name": "sint-mcp-marketplace",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "start": "wrangler dev",
+    "cf-typegen": "wrangler types"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.2",
+    "typescript": "^5.5.2",
+    "wrangler": "^4.13.2"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.10.2",
+    "fetch-to-node": "^2.1.0",
+    "hono": "^4.7.7"
+  }
+}
