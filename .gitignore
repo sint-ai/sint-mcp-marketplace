@@ -170,3 +170,6 @@ dist
 
 .dev.vars
 .wrangler/
+
+# Generated TypeScript declarations
+worker-configuration.d.ts
